@@ -1,0 +1,159 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body{
+	background-image: url('images/background.jpg')
+}
+
+ul{
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+	color: inherit;
+}
+
+/* Header*/
+header{
+	background-color: #f78509;
+	height: 55px;
+	border-bottom: 3px solid #F08080;
+}
+
+#header_margin{
+	width: 1000px;
+	margin: auto;
+}
+
+#header_margin .header_margin_left{
+	float: left;
+}
+
+#header_margin #logo{
+	width: 200px;
+}
+
+#header_margin #logo img{
+	margin-left: 70px;
+	cursor: pointer;
+}
+
+#header_margin #search{
+	width: 300px;
+	margin-left: 400px;
+	position: relative;
+}
+
+#header_margin #search input{
+	border: 1px solid #FFFFF0;
+	border-radius: 9px;
+	height: 25px;
+    width: 280px;
+    margin-top: 13px;
+    text-indent: 10px;
+}
+
+#header_margin #search button{
+	background:  url('images/icon_search.png');
+	width: 21px;
+	height: 23px;
+	border: none;
+	position: absolute;
+	top: 13px;
+	right: 30px;
+	cursor: pointer;
+}
+
+/* Main */
+
+
+@font-face{
+	font-family: Androgyne;
+	src: url('font/UTM Androgyne.ttf');
+}
+@font-face{
+	font-family: Aquarelle;
+	src: url('font/UTM Aquarelle.ttf');
+}
+@font-face{
+	font-family: Fleur;
+	src: url('font/UTM Fleur.ttf');
+}
+@font-face{
+	font-family: Showcard;
+	src: url('font/UTM Showcard.ttf');*/
+}
+
+main div#images{
+	margin: 1px auto;
+	background: url('images/uit.jpg') no-repeat;
+	height: 700px;
+}
+
+main #container{
+	width: 1000px;
+	margin: auto;
+	background: white;
+}
+
+main h1#nhom{
+	font-family: Androgyne;
+	text-align: center;
+	font-size: 350%;
+	margin-bottom: 10px;
+	color: #f7a347;
+}
+
+main h1#chaomung{
+	font-family: Aquarelle;
+	text-align: center;
+	font-size: 350%;
+	color: #f77575;
+	text-shadow: 2px 2px 4px red;
+}
+
+main #container img{
+	padding: 20px;
+	margin-left: 90px;
+}
+
+main #container p{
+	font-size: 120%;
+	text-align: justify;
+	line-height: 1.5;
+	text-indent: 40px;
+	margin: 0px 50px 5px 50px;
+	color: #13338c;
+	font-style: italic;
+}
+
+main #container h3{
+	text-align: center;
+	background: #f78509;
+	width: 200px;
+	color: white;
+	border-radius: 9px;
+	margin: 10px 0px 0px 400px;
+}
+
+/* Go Top */
+
+div#gotop{
+	clear: left;
+}
+
+div#gotop img{
+	position: fixed;
+    right: 0px;
+    top: 620px;
+}
+
+footer{
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
